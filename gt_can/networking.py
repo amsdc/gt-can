@@ -50,5 +50,5 @@ class Peer:
         listen_thread = threading.Thread(target=self.listen)
         listen_thread.start()
 
-        recv_thread = threading.Thread(target=self.recv_data)
-        recv_thread.start()
+        # recv_thread = threading.Thread(target=self.recv_data)
+        # recv_thread.start()
